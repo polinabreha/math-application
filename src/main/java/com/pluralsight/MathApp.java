@@ -35,7 +35,7 @@ public class MathApp {
         double x2 = 85.0;
         double y2 = 50.0;
 
-        double distance = Math.hypot(x2 - y1, y2 - y1);
+        double distance = Math.hypot(x2 - x1, y2 - y1);
         double roundDistance = Math.round(distance);
         System.out.println("The distance is: " + roundDistance);
 
